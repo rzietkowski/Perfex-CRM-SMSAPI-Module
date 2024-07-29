@@ -14,11 +14,7 @@ class Report extends APP_Controller
     public function __construct() {
         parent::__construct();
         $this->output->set_header('X-Robots-Tag: noindex, nofollow');
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> db670c9 (Temporary commit for force push)
         if( get_option("sms_smsapi_save_messagess") != '1' ){
             show_404();
         }
