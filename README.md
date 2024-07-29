@@ -8,14 +8,14 @@ This module allows you to integrate SMSAPI services with Perfex CRM, enabling yo
 
 1. **Download the Latest Release**
 
-   Go to the [Releases](https://github.com/rzietkowski/Perfex-CRM-SMSAPI-Module/releases) page of this repository and download the latest ZIP file.
+   Go to the [Releases](https://github.com/rzietkowski/Perfex-CRM-SMSAPI-Module/releases) page of this repository and download the latest `smsapi.zip` file.
 
 2. **Upload the Module**
 
    - Log in to your Perfex CRM admin panel.
    - Navigate to `Setup` > `Modules`.
    - Click on the `Upload Module` button.
-   - Upload the ZIP file you downloaded in step 1.
+   - Upload the `smsapi.zip` file you downloaded in step 1.
 
 3. **Activate the Module**
 
