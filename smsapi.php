@@ -29,14 +29,6 @@ register_activation_hook(SMSAPI_MODULE_NAME, function() {
 });
 
 /**
- * Register uninstall module hook
-*/
-/* register_uninstall_hook(SMSAPI_MODULE_NAME, function(){
-	$CI = &get_instance();
-    require __DIR__ . '/uninstall.php';
-}); */
-
-/**
 * Register language files, must be registered if the module is using languages
 */
 register_language_files(SMSAPI_MODULE_NAME, [SMSAPI_MODULE_NAME]);
