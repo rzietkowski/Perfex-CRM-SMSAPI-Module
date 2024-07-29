@@ -4,6 +4,15 @@
 
 This module allows you to integrate SMSAPI services with Perfex CRM, enabling you to send SMS notifications directly from your CRM system.
 
+## Available Languages
+
+The module is available in the following languages:
+
+- <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f5-1f1f1.png?v8" alt="Polish" width="18" height="18"/> Polish
+- <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ec-1f1e7.png?v8" alt="English" width="18" height="20"/> English
+- <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f8-1f1ea.png?v8" alt="Swedish" width="18" height="20"/> Swedish
+- <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e7-1f1ec.png?v8" alt="Bulgarian" width="18" height="20"/> Bulgarian
+
 ## Installation Instructions
 
 1. **Download the Latest Release**
