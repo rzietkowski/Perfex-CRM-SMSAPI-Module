@@ -1,5 +1,7 @@
 # Perfex CRM - SMSAPI Module
 
+![SMSAPI + Perfex CRM](./assets/img/banner_smsapi_perfex.png)
+
 This module allows you to integrate SMSAPI services with Perfex CRM, enabling you to send SMS notifications directly from your CRM system.
 
 ## Installation Instructions
