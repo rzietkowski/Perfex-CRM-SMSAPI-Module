@@ -6,7 +6,7 @@ This module allows you to integrate SMSAPI services with Perfex CRM, enabling yo
 
 1. **Download the Latest Release**
 
-   Go to the [Releases](https://github.com/isc0de/Perfex-CRM-module-smsapi/releases) page of this repository and download the latest ZIP file.
+   Go to the [Releases](https://github.com/rzietkowski/Perfex-CRM-SMSAPI-Module/releases) page of this repository and download the latest ZIP file.
 
 2. **Upload the Module**
 
@@ -27,7 +27,28 @@ This module allows you to integrate SMSAPI services with Perfex CRM, enabling yo
 
 5. **Start Using the Module**
 
-   - You can now start sending SMS notifications from various parts of Perfex CRM, such as clients, invoices, and projects.
+   - You can now start sending SMS notifications from Perfex CRM.
+
+## Additional Configuration
+
+1. **API Key Configuration**
+
+   - Obtain your API key from the SMSAPI panel by navigating to `Settings` > `API Settings` > `API Tokens` > `+ Generate Token`.
+   - Provide a token name of your choice and set the expiration date as needed.
+   - Select the SMS permission and click `Generate Token`.
+   - Copy the generated token and paste it into the API Key field in the module configuration.
+
+2. **Sender Name Configuration**
+
+   - Choose or add a sender name from the SMSAPI panel by navigating to `SMS Messages` > `Sender Fields`.
+   - Select your sender field and copy it.
+   - Paste it into the Sender Name field in the module configuration.
+
+3. **Message Logging**
+
+   - This module includes an additional feature for logging messages.
+   - When enabled, it adds a new menu item under `Reports` > `SMSAPI Log`.
+   - This logs sent messages and receives notifications from SMSAPI about message statuses.
 
 ## Troubleshooting
 
@@ -37,9 +58,8 @@ If you encounter any issues during installation or usage, please check the follo
 - Verify that your SMSAPI credentials are correct.
 - Check the Perfex CRM documentation for any additional requirements or compatibility issues.
 
-For further assistance, feel free to open an issue on the [GitHub Issues](https://github.com/isc0de/Perfex-CRM-module-smsapi/issues) page.
+For further assistance, feel free to open an issue on the [GitHub Issues](https://github.com/rzietkowski/Perfex-CRM-SMSAPI-Module/issues) page.
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
-
+This project is licensed under the Apache License Version 2.0. See the [LICENSE](LICENSE) file for details.

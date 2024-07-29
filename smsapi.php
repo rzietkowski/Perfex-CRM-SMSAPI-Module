@@ -7,7 +7,7 @@ Description: Send SMS by SMSAPI
 Author: ISCODE
 Author URI: https://iscode.pl
 Version: 1.0.0
-Requires at least: 1.0.0
+Requires at least: 2.9.0
 */
 
 define('SMSAPI_MODULE_NAME', "smsapi");
@@ -90,7 +90,8 @@ hooks()->add_filter('module_'.SMSAPI_MODULE_NAME.'_action_links', function($acti
     });
 
     $actions[] = '<a href="'.admin_url('settings?group=sms').'">' . _l('settings') . '</a>';
-    $actions[] = '<a href="https://panel.iscode.pl/forms/ticket?'.http_build_query($support).'" target="_blank">' . _l('support') . '</a>';
+    $actions[] = '<a href="https://panel.iscode.pl/forms/ticket?'.http_build_query($support).'" target="_blank" data-toggle="tooltip" title="Contact with the developer"><i class="fa-envelope fa-solid"></i></a>';
+    $actions[] = '<a href="https://github.com/rzietkowski/Perfex-CRM-SMSAPI-Module/issues" target="_blank">' . _l('support') . '</a>';
     return $actions;
 });
 
