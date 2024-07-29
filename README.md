@@ -8,10 +8,10 @@ This module allows you to integrate SMSAPI services with Perfex CRM, enabling yo
 
 The module is available in the following languages:
 
-- ![Polish](https://github.githubassets.com/images/icons/emoji/unicode/1f1f5-1f1f1.png?v8) Polish
-- ![English](https://github.githubassets.com/images/icons/emoji/unicode/1f1ec-1f1e7.png?v8) English
-- ![Swedish](https://github.githubassets.com/images/icons/emoji/unicode/1f1f8-1f1ea.png?v8) Swedish
-- ![Bulgarian](https://github.githubassets.com/images/icons/emoji/unicode/1f1e7-1f1ec.png?v8) Bulgarian
+- <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f5-1f1f1.png?v8" alt="Polish" width="18" height="18"/> Polish
+- <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ec-1f1e7.png?v8" alt="English" width="18" height="20"/> English
+- <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1f8-1f1ea.png?v8" alt="Swedish" width="18" height="20"/> Swedish
+- <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1e7-1f1ec.png?v8" alt="Bulgarian" width="18" height="20"/> Bulgarian
 
 ## Installation Instructions
 
