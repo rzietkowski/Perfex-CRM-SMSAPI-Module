@@ -129,7 +129,7 @@ class Sms_smsapi extends App_sms
             if( $this->normalize )
                 $sendData['normalize'] = '1';
 
-            // $sendData['partner_id'] =
+            $sendData['partner_id'] = 'XFK6';
             
             if( $this->save_messagess ){
                 $sms_hash = app_generate_hash();

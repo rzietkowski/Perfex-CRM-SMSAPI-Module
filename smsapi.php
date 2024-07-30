@@ -6,7 +6,7 @@ Module Name: SMSAPI
 Description: Send SMS by SMSAPI
 Author: ISCODE
 Author URI: https://iscode.pl
-Version: 1.0.0
+Version: 1.0.1
 Requires at least: 2.9.0
 */
 
